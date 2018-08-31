@@ -13,6 +13,7 @@ Soy especialista en Blogs y Social Media, con más de 20 años de experiencia en
 - Fundador y autor del blog Blogpocket, desde 2001. 
 - Autor del libro: “Manual imprescindible de Twitter” (Ed. Anaya Multimedia, 2012).
 - Profesor del Posgrado en Comunicación Digital y Social Media, en Inesdi Digital Business School.
+- Hola esto es una prueba de edición agena
 
 ### Publico textos, podcasts y vídeos
 
