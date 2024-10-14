@@ -1,31 +1,26 @@
----
-layout: default
-published: true
----
-
-<div class="posts">
-<!-- This loops through the paginated posts -->
-{% for post in paginator.posts %}
-  <article class="post">
-  <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-   <div class="entry">
-        {{ post.excerpt }}
-   </div>
-   <a class="button" style="font-size: 12px;" href="{{ site.baseurl }}{{ post.url }}"><span class="fas fa-hand-point-right"></span>&nbsp;Leer m&aacute;s</a>
-  </article>
-{% endfor %}
-</div>
-
-<!-- Pagination links -->
-
-<div style="text-align: center; margin-top: 30px; margin-bottom: 25px;">
-  {% if paginator.previous_page %}
-    <a class="button" style="font-size: 12px;" title="Prev page" href="{{ paginator.previous_page_path }}"><span class="fas fa-chevron-circle-left"></span>&nbsp;Anteior</a>
-  {% endif %}
-  <span class="page_number ">
-    &nbsp;&nbsp;&nbsp;&nbsp;P&aacute;gina {{ paginator.page }} de {{ paginator.total_pages }}
-  </span>
-  {% if paginator.next_page %}
-    &nbsp;&nbsp;&nbsp;&nbsp;<a class="button" style="font-size: 12px;" title="Next page" href="{{ paginator.next_page_path }}"><span class="fas fa-chevron-circle-right"></span>&nbsp;Siguiente</a>
-  {% endif %}
-</div>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting to github.com/blogpocket/</title>
+    <meta http-equiv="refresh" content="0; URL=https://github.com/blogpocket">
+    <link href="https://github.com/blogpocket" rel="me">
+    <link href="https://www.blogpocket.com/" rel="me">
+    <link href="https://federate.blogpocket.com/@acambronero" rel="me">
+  </head>
+  <body style="margin: 0; padding: 0">
+    <a
+      href="https://github.com/blogpocket"
+      style="
+        display: block;
+        height: 100vh;
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        color: white;
+      "
+    >
+      github.com/blogpocket
+    </a>
+  </body>
+</html>
